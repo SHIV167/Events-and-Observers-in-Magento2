@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+   <menu>
+       <add id="Shiv_Mymodule::menu"
+           title="Shiv" translate="title" module="Shiv_Mymodule"
+           sortOrder="10"
+           resource="Shiv_Mymodule::menu"
+           />
+       <!-- START: new node -->  
+       <add id="Shiv_Mymodule::submenu_mymodule"
+           title="MyModule" translate="title" module="Shiv_Mymodule"
+           sortOrder="20" parent="Shiv_Mymodule::menu"
+           action="mymodule/create/index"
+           resource="Shiv_Mymodule::submenu_mymodule"
+           />
+       <!-- END:   new node -->
+   </menu>
+</config>

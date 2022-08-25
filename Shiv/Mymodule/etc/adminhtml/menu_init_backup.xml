@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Shiv_Mymodule::menu" title="ShivJha" translate="title" module="Shiv_Mymodule" sortOrder="10" resource="Shiv_Mymodule::menu"/>
+    </menu>
+</config>
